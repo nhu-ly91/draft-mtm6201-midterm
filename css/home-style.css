@@ -210,6 +210,10 @@ h5 {
     color: rgb(129, 129, 129);
 }
 
+.btn-bottom:hover {
+    color: rgb(255, 102, 102);
+}
+
 .btn-home {
     display: flex;
     flex-direction: column;
@@ -218,6 +222,10 @@ h5 {
     border: none;
     background-color: white;
     color: rgb(200, 1, 1);
+}
+
+.btn-home:hover {
+    color: rgb(255, 102, 102);
 }
 
 .text-menu-bottom {
