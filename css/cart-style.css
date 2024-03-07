@@ -1,3 +1,8 @@
+
+
+/* Starting mobile version */
+@media (max-width: 500px) {
+
 body {
     width: 360px;
     background-color: white;
@@ -113,4 +118,5 @@ table tr td {
     width: 100%;
     border-radius: 5px;
     color: white;
+}
 }
