@@ -13,8 +13,8 @@
 <body>
     <header>
         <nav>
-            <a href="home.html"><span class="material-symbols-outlined">menu</span></a>
-            <a class="location-part"><span class="material-symbols-outlined location-icon">location_on</span>Ottawa,CA</a>
+            <button type="button" class="btn-menu" onclick="document.location='home.html'"><span class="material-symbols-outlined">menu</span></button>
+            <a class="location-part"><span class="material-symbols-outlined location-icon">location_on</span>Chicago, IL</a>
             <img class="profile-img" src="images/women.jpeg" width="30" height="30">
         </nav>
     </header>
@@ -22,7 +22,7 @@
     <main>
         <div class="welcome-text">
             <h1>Hey!</h1>
-            <h2>Let's get your order</h2>
+            <h3>Let's get your order</h3>
         </div>
 
         <form class="search-box">
@@ -33,36 +33,38 @@
 
         <div class="categories">
             <div class="ctn-burger">
-                <img class="icon" src="images/burger-icon.png">
+                <img class="img-item" src="images/burger-icon.png">
                 <h5>Burgers</h5>
-                <span class="material-symbols-outlined">chevron_right</span>
+                <span class="material-symbols-outlined btn-arrow-burger">chevron_right</span>
             </div>
 
             <div class="ctn-cat">
-                <img class="icon" src="images/pizza-icon.png">
+                <img class="img-item" src="images/pizza-icon.png">
                 <h5>Pizza</h5>
-                <span class="material-symbols-outlined">chevron_right</span>
+                <span class="material-symbols-outlined btn-arrow">chevron_right</span>
             </div>
 
             <div class="ctn-cat">
-                <img class="icon" src="images/cake-icon.png">
+                <img class="img-item" src="images/cake-icon.png">
                 <h5>Cakes</h5>
-                <span class="material-symbols-outlined">chevron_right</span>
+                <span class="material-symbols-outlined btn-arrow">chevron_right</span>
             </div>
         </div>
 
         <div>
             <div class="popular">
-                <h3>Popular</h3>
+                <h4>Popular</h4>
                 <h6>View all ></h6>
             </div>
             <div class="item-container">
-                <div class="red-box"></div>
-                <img class="burger-2" src="images/burger-2.png">
+                <div class="box-container">
+                    <div class="red-box"></div>
+                    <img class="burger-2" src="images/burger-2.png">
+                </div>
                 <div class="price-text">
-                    <h4>Chipotle Cheesy Chicken</h4>
-                    <h4>$20.95</h4>
-                    <h4>Chicken Burger</h4>
+                    <h5>Chipotle Cheesy Chicken</h5>
+                    <h5>$20.95</h5>
+                    <h5>Chicken Burger</h5>
                 </div>
             </div>
         </div>
@@ -70,30 +72,16 @@
 
     <footer>
         <div class="menu-bottom"> 
-            <button class="btn-home">
-                <span class="material-symbols-outlined icon-menu-bottom home-icon">home</span>
-                <a class="text-menu-bottom home-text" href="home.html">Home</a>
-            </button> 
+            <button type="button" onclick="document.location='home.html'" class="btn-home">
+                <span class="material-symbols-outlined">
+dashboard
+</span>Home</button> 
             <button class="btn-bottom">
-                <span class="material-symbols-outlined">favorite</span>
-                <a class="text-menu-bottom" href="#">Favorites</a>
-            </button> 
+                <span class="material-symbols-outlined">favorite</span>Favorites</button> 
             <button class="btn-bottom">
-                <span class="material-symbols-outlined icon-menu-bottom">person</span>
-                <a class="text-menu-bottom" href="#">Account</a>
-            </button>
+                <span class="material-symbols-outlined icon-menu-bottom">person</span>Account</button>
             <button class="btn-bottom">
-                <span class="material-symbols-outlined icon-menu-bottom">more_horiz</span>
-                <a class="text-menu-bottom" href="#">More</a>
-            </button>    
-            <!-- <span class="material-symbols-outlined icon-menu-bottom home-icon">home</span>
-            <span class="material-symbols-outlined icon-menu-bottom">favorite</span>
-            <span class="material-symbols-outlined icon-menu-bottom">person</span>
-            <span class="material-symbols-outlined icon-menu-bottom">more_horiz</span>
-            <a class="text-menu-bottom" href="home.html">Home</a> 
-            <a class="text-menu-bottom" href="#">Favorites</a> 
-            <a class="text-menu-bottom" href="#">Account</a> 
-            <a class="text-menu-bottom" href="#">More</a>  -->
+                <span class="material-symbols-outlined icon-menu-bottom">more_horiz</span>More</button>    
         </div>
     </footer>
 </body>
