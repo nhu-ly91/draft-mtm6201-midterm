@@ -1,3 +1,5 @@
+/* Starting mobile version */
+@media (max-width: 600px) {
 body {
     width: 375px;
     height: 812px;
@@ -235,4 +237,5 @@ h5 {
 
 .home-text {
     color: rgb(200, 1, 1);
+}
 }

@@ -1,8 +1,7 @@
 
 
 /* Starting mobile version */
-@media (max-width: 500px) {
-
+@media (max-width: 600px) {
 body {
     width: 360px;
     background-color: white;
